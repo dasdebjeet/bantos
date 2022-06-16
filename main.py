@@ -52,7 +52,7 @@ async def baal(ctx):
     await ctx.reply(f'{uname}, tui bal 💩🤣')
 
 
-@bot.command(name = "love u")
+@bot.command(name = "love")
 async def love(ctx):
     await ctx.reply(f"Love u too, {uname}")
 
