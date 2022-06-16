@@ -52,4 +52,8 @@ async def baal(ctx):
     await ctx.reply(f'{uname}, tui bal 💩🤣')
 
 
+@bot.command(name = "love u")
+async def love(ctx):
+    await ctx.reply(f"Love u too, {uname}")
+
 bot.run(os.getenv("DISCORD_TOKEN"))
